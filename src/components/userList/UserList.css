@@ -1,0 +1,67 @@
+.aside {
+    width: 400px;
+    background-color: rgba(59, 149, 215, 0.15);
+    overflow: auto;
+    padding: 0 22px;
+    grid-area: aside;
+}
+
+.card {
+    background: rgba(86, 92, 78, 0.1);
+    border: 0.5px solid #565C4E;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.card__content {
+    display: flex;
+    gap: 10px;
+}
+
+.member__avatar {
+    width: 67px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    background-color: #BDBDBD;
+    color: #666363;
+    font-size: 36px;
+    border-radius: 50%;
+}
+
+.card__content .member__info .member__name {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card__content .member__info .member__id,
+.card__content .member__info .member__city {
+    font-size: 12px;
+    color: #666363
+}
+
+
+.actions__edit,
+.actions__delete {
+    height: 23px;
+    min-width: 80px;
+}
+
+.actions__edit {
+    color: #666363;
+    background-color: #D9D9D9;
+}
+
+.actions__delete {
+    color: white;
+    background-color: #DD5A5A;
+}
+
+.card__actions {
+    margin-top: 25px;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
